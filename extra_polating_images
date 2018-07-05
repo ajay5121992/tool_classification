@@ -148,6 +148,7 @@ def extraploating_ok_back_images():
         label = "back"
         for batch in datagen.flow(x, batch_size=1, save_to_dir='/home/ajay/test4', save_prefix=label,
                                   save_format='jpeg'):
+                                  
             i += 1
             if i > 30:
                 break
